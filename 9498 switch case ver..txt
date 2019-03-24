@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	switch (90 <= n, 80 <= n, 70 <= n, 60 <= n)
+	{
+	case 1: 
+		printf("A");
+		break;
+	case 2:
+		printf("B");
+		break;
+	case 3:
+		printf("C");
+		break;
+	case 4: 
+		printf("D");
+		break;
+	default:
+		printf("F");
+		break;
+		return 0;
+	}
+}
